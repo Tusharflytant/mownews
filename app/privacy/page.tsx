@@ -9,10 +9,10 @@ const PrivacyPolicy = () => {
   return (
     <div className="mt-40 text-gray-900 min-h-screen">
       {/* Header */}
-      <header className="bg-gray-100 text-gray-800 py-12 text-center">
+      <header className="bg-purple-100 text-gray-800 py-12 text-center">
         <h1 className="text-3xl text-black font-medium mb-4">Privacy Policy</h1>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-          Learn how gutentype collects, uses, and protects your personal information.
+          Learn how mowindia collects, uses, and protects your personal information.
         </p>
       </header>
 
@@ -22,7 +22,7 @@ const PrivacyPolicy = () => {
         <section className="bg-white p-8 rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold text-black mb-4">Your Privacy Matters</h2>
           <p className="text-lg text-gray-700 mb-4">
-            gutentype is committed to protecting your privacy. This policy explains what information we collect, how we use it, and the choices you have. We are transparent about our practices and dedicated to safeguarding your data.
+            mowindia is committed to protecting your privacy. This policy explains what information we collect, how we use it, and the choices you have. We are transparent about our practices and dedicated to safeguarding your data.
           </p>
           <p className="text-lg text-gray-700">
             By using our website, you agree to the collection and use of information in accordance with this policy.

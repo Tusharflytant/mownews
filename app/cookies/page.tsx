@@ -9,10 +9,10 @@ const CookiesPolicy = () => {
   return (
     <div className="mt-40 text-gray-900 min-h-screen">
       {/* Header */}
-      <header className="bg-gray-100 text-gray-800 py-12 text-center">
+      <header className="bg-purple-100 text-gray-800 py-12 text-center">
         <h1 className="text-3xl text-black font-medium mb-4">Cookies Policy</h1>
         <p className="text-lg text-gray-600">
-          Learn how gutentype uses cookies and similar technologies to enhance your browsing experience.
+          Learn how mowindia uses cookies and similar technologies to enhance your browsing experience.
         </p>
       </header>
 
@@ -22,7 +22,7 @@ const CookiesPolicy = () => {
         <section className="bg-white p-8 rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold text-black mb-4">What Are Cookies?</h2>
           <p className="text-lg text-gray-700 mb-4">
-            Cookies are small data files stored on your device when you visit websites. They help improve functionality, analyze usage, and deliver personalized content. gutentype uses cookies to enhance performance and tailor your experience.
+            Cookies are small data files stored on your device when you visit websites. They help improve functionality, analyze usage, and deliver personalized content. mowindia uses cookies to enhance performance and tailor your experience.
           </p>
           <p className="text-lg text-gray-700">
             Some cookies are essential for the operation of our website, while others help us understand user behavior and improve our content.
@@ -64,7 +64,7 @@ const CookiesPolicy = () => {
         <section className="bg-white p-8 rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold text-black mb-4">Changes to This Policy</h2>
           <p className="text-lg text-gray-700">
-            gutentype may update this Cookies Policy from time to time. We encourage you to review this page periodically for any changes. Your continued use of our site signifies your agreement to the updated terms.
+            mowindia may update this Cookies Policy from time to time. We encourage you to review this page periodically for any changes. Your continued use of our site signifies your agreement to the updated terms.
           </p>
         </section>
       </main>

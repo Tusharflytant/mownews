@@ -9,7 +9,7 @@ const TermsAndConditions = () => {
   return (
     <div className=" mt-40 text-gray-900 min-h-screen">
       {/* Header */}
-      <header className="bg-gray-100 text-white py-12 text-center">
+      <header className="bg-purple-100 text-white py-12 text-center">
         <h1 className="text-3xl text-black font-medium mb-4">Terms & Conditions</h1>
         <p className="text-lg text-gray-800">
           Please take a moment to review our terms and conditions before using our services.

@@ -9,10 +9,10 @@ const DMCA = () => {
   return (
     <div className="mt-40 text-gray-900 min-h-screen">
       {/* Header */}
-      <header className="bg-gray-100 text-gray-800 py-12 text-center">
+      <header className="bg-purple-100 text-gray-800 py-12 text-center">
         <h1 className="text-3xl text-black font-medium mb-4">DMCA Policy</h1>
         <p className="text-lg text-gray-600">
-          Learn how gutentype handles copyright infringement claims under the DMCA.
+          Learn how mowindia handles copyright infringement claims under the DMCA.
         </p>
       </header>
 
@@ -23,7 +23,7 @@ const DMCA = () => {
         <section className="bg-white p-8 rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold text-black mb-4">What is the DMCA?</h2>
           <p className="text-lg text-gray-700 mb-4">
-            The Digital Millennium Copyright Act (DMCA) is a U.S. law that protects the rights of copyright holders by enabling them to report infringing content. gutentype complies fully with the DMCA and respects the intellectual property of others.
+            The Digital Millennium Copyright Act (DMCA) is a U.S. law that protects the rights of copyright holders by enabling them to report infringing content. mowindia complies fully with the DMCA and respects the intellectual property of others.
           </p>
           <p className="text-lg text-gray-700">
             This policy outlines our procedures for handling DMCA takedown notices and how affected parties may respond.
@@ -34,7 +34,7 @@ const DMCA = () => {
         <section className="bg-white p-8 rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold text-black mb-4">Reporting Copyright Infringement</h2>
           <p className="text-lg text-gray-700 mb-4">
-            If you believe that content on gutentype infringes on your copyright, please send a written DMCA notice to our designated agent including the following:
+            If you believe that content on mowindia infringes on your copyright, please send a written DMCA notice to our designated agent including the following:
           </p>
           <ul className="list-disc list-inside text-lg text-gray-700 space-y-3">
             <li>A description of the copyrighted work you claim has been infringed.</li>
@@ -61,7 +61,7 @@ const DMCA = () => {
         <section className="bg-white p-8 rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold text-black mb-4">Repeat Infringers</h2>
           <p className="text-lg text-gray-700">
-            gutentype has a zero-tolerance policy for repeat copyright infringers. We may terminate user accounts or access for repeat offenders at our sole discretion.
+            mowindia has a zero-tolerance policy for repeat copyright infringers. We may terminate user accounts or access for repeat offenders at our sole discretion.
           </p>
         </section>
 
@@ -72,9 +72,9 @@ const DMCA = () => {
             DMCA notices and counter-notices should be sent to our designated agent:
           </p>
           <p className="text-lg text-gray-700">
-            <strong>Email:</strong> legal@gutentype.com
+            <strong>Email:</strong> legal@mowindia.com
             <br />
-            <strong>Address:</strong> gutentype, Attn: DMCA Agent, 1234 Street Name, City, State, 12345
+            <strong>Address:</strong> mowindia, Attn: DMCA Agent, 1234 Street Name, City, State, 12345
           </p>
         </section>
 
