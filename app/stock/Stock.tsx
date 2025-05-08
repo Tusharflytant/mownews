@@ -54,7 +54,7 @@ const Stock = () => {
     alt={post.title}
     layout="fill"
     objectFit="cover"
-    className="transition-transform duration-300 group-hover:scale-105"
+    className="transition-transform  rounded-md duration-300 group-hover:scale-105"
   />
   
   {/* Dark gradient overlay */}
@@ -87,7 +87,7 @@ const Stock = () => {
                     width={1000}
                     height={1000}
                     alt={post.title}
-                    className='h-[250px] xl:h-[200px] object-cover transition-transform duration-300 ease-in-out
+                    className='h-[250px] xl:h-[200px]  rounded-md object-cover transition-transform duration-300 ease-in-out
                     hover:scale-105 hover:brightness-110'
                   />
                   <h2 className='mt-3 text-xl text-left font-bold text-black'>{post.title}</h2>

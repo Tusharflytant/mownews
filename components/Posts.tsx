@@ -18,7 +18,7 @@ interface PostProps {
 const Posts: React.FC<PostProps> = ({ pimg, pheading , articleNumber, section, pauthor}) => {
    
   return (
-    <div className=" flex justify-center md:justify-around items-center   sm:px-0 mt-8">
+    <div className=" flex justify-center md:justify-around items-center   sm:px-4 lg:px-0 mt-8">
       
         <div className="bg-white rounded-md w-full md:w-auto">
         <div className="relative overflow-hidden inline-block group">
@@ -28,7 +28,7 @@ const Posts: React.FC<PostProps> = ({ pimg, pheading , articleNumber, section, p
     title="Post"
     width={1200}
     height={1200}
-    className="h-[400px] w-auto sm:h-[300px] md:h-[250px] xl:h-[450px] object-cover 
+    className="h-[400px] rounded-md w-auto sm:h-[300px] md:h-[250px] xl:h-[450px] object-cover 
                transition-transform duration-500 ease-in-out 
                group-hover:scale-105 group-hover:brightness-110"
   />

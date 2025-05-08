@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import toast, { Toaster } from 'react-hot-toast';
 import Link from 'next/link';
 
 const Newsletter: React.FC = () => {
@@ -8,7 +9,7 @@ const Newsletter: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    alert(`Thanks for subscribing with ${email}!`);
+    toast.success(`Thanks for subscribing with ${email}!`);
     setEmail('');
   };
 

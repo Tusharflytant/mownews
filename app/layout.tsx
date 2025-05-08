@@ -17,23 +17,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://gutentype.vercel.app/"),
-  title: { default: "Mow News", template: `%s | Mow News` },
+  metadataBase: new URL("https://insurfiy.com/"),
+  title: { default: "Insurfiy", template: `%s | Insurfiy` },
   description: "Stay updated with the latest tech and global news.",
   openGraph: {
     url: "/",
-    title: "Mow News",
+    title: "Insurfiy",
     description: "",
-    images: ["/logo-mow.webp"],
+    images: ["/logo-insurfiy.png"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mow News",
+    title: "Insurfiy",
     description: "",
-    images: ["/logo-mow.webp"],
+    images: ["/logo-insurfiy.png"],
   },
   icons: {
-    icon: "/logo-mow.webp", 
+    icon: "/logo-insurfiyfav.png", 
   },
 };
 
@@ -49,7 +49,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Toaster position="top-center" />
+        <Toaster position="top-right" />
         <Header />
         {children}
        

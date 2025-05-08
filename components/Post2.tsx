@@ -23,7 +23,7 @@ const Post2: React.FC<PostProps> = ({ pimg, pheading , articleNumber , section})
   return (
     <div className="   w-full ">
       
-        <div className="bg-white sm:px-4 lg:px-0 px-6  w-full">
+        <div className="bg-white sm:px-4 lg:px-0   w-full">
           <Image
             src={pimg}
             className="h-[250px] sm:h-[220px] md:h-[200px]  object-cover mb-2 rounded-sm"

@@ -30,7 +30,7 @@ const Slider = () => {
 
           return (
             <SwiperSlide key={index}>
-              <section className="text-white body-font mt-20 px-20 overflow-hidden  ">
+              <section className="text-white body-font mt-20 px-4 lg:px-20 overflow-hidden  ">
                 
                 <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8">
                   

@@ -48,13 +48,13 @@ const Etfs = () => {
         href={`/post/${post.title.replace(/[^A-Za-z0-9]+/g, "-")}`} 
         passHref
       >
-        <div className="relative w-full h-[360px] overflow-hidden  group cursor-pointer">
+        <div className="relative w-full h-[360px]  rounded-md overflow-hidden  group cursor-pointer">
   <Image
     src={`/articles/${post.imgUrl}`}
     alt={post.title}
     layout="fill"
     objectFit="cover"
-    className="transition-transform duration-300 group-hover:scale-105"
+    className="transition-transform duration-300  group-hover:scale-105"
   />
   
   {/* Dark gradient overlay */}
@@ -87,7 +87,7 @@ const Etfs = () => {
                     width={1000}
                     height={1000}
                     alt={post.title}
-                    className='h-[250px] xl:h-[200px] object-cover transition-transform duration-300 ease-in-out
+                    className='h-[250px] xl:h-[200px] object-cover rounded-md transition-transform duration-300 ease-in-out
                     hover:scale-105 hover:brightness-110'
                   />
                   <h2 className='mt-3 text-xl text-left font-bold text-black'>{post.title}</h2>

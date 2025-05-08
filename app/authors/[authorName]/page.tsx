@@ -53,18 +53,18 @@ const AuthorPage = async ({ params }: { params: Promise<{ authorName: string }> 
   return (
 
     <>
-    <div className="px-6 md:px-10  lg:px-16 xl:px-24 mt-40">
+    <div className="px-6 md:px-10  lg:px-16 xl:px-24 mt-50">
       {/* Author Info Section */}
       <div className="px-6 sm:px-10 lg:px-36 mb-12">
   <div className="relative bg-white/80 backdrop-blur-xl border border-purple-200 rounded-3xl p-6 sm:p-10 shadow-md transition-all duration-300 hover:shadow-purple-300/40 hover:ring-2 hover:ring-purple-300">
     <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
-      <div className="relative">
+      <div className="relative ">
         <Image
           src={`/authors/${author.authorName}.jpg`}
           alt={author.authorName}
-          width={120}
-          height={120}
-          className="rounded-full border-4 border-purple-200 shadow object-cover size-28"
+          width={128}
+          height={128}
+          className="rounded-full border-4 border-purple-200 shadow object-cover   w-24 h-24 sm:w-28 sm:h-28 md:w-64 md:h-32 lg:w-32"
         />
   
       </div>
@@ -107,7 +107,7 @@ const AuthorPage = async ({ params }: { params: Promise<{ authorName: string }> 
               width={1000}
               height={1000}
               alt={post.title}
-              className='h-[250px] xl:h-[300px] w-full  shadow-md object-cover transition-transform duration-300 ease-in-out
+              className='h-[250px] xl:h-[300px] w-full  rounded-md  shadow-md object-cover transition-transform duration-300 ease-in-out
                hover:scale-105 hover:brightness-110'
               />
             <h2 className='mt-3 text-xl line-clamp-2 text-left font-bold text-gray-900'>{post.title}</h2>

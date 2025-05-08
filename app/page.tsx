@@ -38,10 +38,7 @@ const Page = () => {
     <>
     <div className="max-w-7xl mx-auto mt-50">
 
-    <aside className="max-w-7xl mx-auto">
-        <div className="OUTBRAIN outbrain-desktop" data-widget-id="AR_2"></div>
-        <div className="OUTBRAIN outbrain-mobile" data-widget-id="CRMB_2"></div>
-      </aside>
+    
 
       <div className="grid grid-cols-1 md:grid-cols-12 gap-6 px-4">
         {/* Column 1 */}
@@ -130,7 +127,7 @@ const Page = () => {
         </div>
 
         {/* Column 3 */}
-        <div className="space-y-6 col-span-12  md:col-span-3">
+        <div className="space-y-6  sm:px-4 lg:px-0 col-span-12  md:col-span-3">
           {politics.slice(0, 2).map((post, index) => (
             <Link key={index} href={`/post/${post.title.replace(/[^A-Za-z0-9]+/g, '-')}`} passHref>
               <div className="relative block overflow-hidden">
@@ -297,7 +294,7 @@ const Page = () => {
         </div>
 
         {/* Column 3 */}
-        <div className="space-y-6 col-span-12 md:col-span-3">
+        <div className="space-y-6 sm:px-4 col-span-12 md:col-span-3">
           {entertainment.slice(2, 4).map((post, index) => (
             <Link key={index} href={`/post/${post.title.replace(/[^A-Za-z0-9]+/g, '-')}`} passHref>
               <div className="relative block overflow-hidden">
@@ -348,7 +345,7 @@ const Page = () => {
       <div className='max-w-7xl mt-20 mx-auto'>
       
       
-      <h2 className="text-4xl mb-10 text-left font-bold uppercase text-black ">Discover Insights</h2>
+      <h2 className="text-4xl ml-2 mb-10 lg:text-left font-bold uppercase text-black ">Discover Insights</h2>
      
   
 
@@ -374,12 +371,15 @@ const Page = () => {
               ))}
           </div>
 
-          <aside className="max-w-7xl mx-auto">
+          
+
+      </div>
+
+      <aside className="max-w-7xl mt-20 mx-auto">
         <div className="OUTBRAIN outbrain-desktop" data-widget-id="AR_1"></div>
         <div className="OUTBRAIN outbrain-mobile" data-widget-id="CRMB_1"></div>
       </aside>
 
-      </div>
    <Outbrain/>
    
    </>

@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import toast, { Toaster } from 'react-hot-toast';
 
 interface FormData {
   name: string;
@@ -52,22 +53,23 @@ const Contact: React.FC = () => {
     e.preventDefault();
 
     if (!formData.name || !formData.email || !formData.message) {
-      alert("All fields are required!");
+      toast.error("All fields are required!");
       return;
     }
 
     if (errors.name || errors.email || errors.message) {
-      alert("Please fix the errors before submitting.");
+      toast.error("Please fix the errors before submitting.");
       return;
     }
 
-    alert("Submitted Successfully!");
+    toast.success("Submitted Successfully!");
     setFormData({ name: "", email: "", message: "" });
   };
 
   return (
     <div className="bg-[#fdfcfc] mt-40 text-gray-800 min-h-screen">
       {/* Header */}
+      
       <header className="bg-purple-100 text-gray-800 py-12 text-center">
         <h1 className="text-3xl text-black font-medium mb-4">Contact Insurifiy</h1>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -124,7 +126,7 @@ const Contact: React.FC = () => {
 
             <button
               type="submit"
-              className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg"
+              className="bg-purple-600 hover:bg-purple-700 hover:cursor-pointer text-white px-6 py-3 rounded-lg"
             >
               Submit
             </button>

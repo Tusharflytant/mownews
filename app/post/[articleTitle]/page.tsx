@@ -320,7 +320,7 @@ const PostPage = async ({
       <div className='max-w-7xl mt-20 mx-auto'>
       
       
-      <h2 className="text-4xl mb-10 text-left font-bold uppercase text-black ">Continue Reading</h2>
+      <h2 className="text-4xl mb-10 ml-4 text-left font-bold uppercase text-black ">Continue Reading</h2>
      
   
 
