@@ -34,7 +34,7 @@ const Trading = () => {
        <Link href="/trading"  >
          <span className="uppercase text-xl sm:text-3xl md:text-5xl hover:underline hover:text-purple-700 cursor-pointer
           text-black font-bold">
-           TRADING
+           HEALTH INSURANCE
          </span>
        </Link>
        

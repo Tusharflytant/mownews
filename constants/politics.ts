@@ -1492,7 +1492,7 @@
 ].reverse()
 .map((article, i) => ({
 ...article,
-category: `etfs`,
+category: `auto insurance`,
 articleNumber: i + 1,
 }));
 

@@ -11,6 +11,7 @@ import Post2 from '@/components/Post2';
 import Post3 from '@/components/Post3';
 import Slider from '@/components/Slider';
 import Posts from '@/components/Posts';
+import Outbrain from "@/components/ads/outbrain";
 
 
 function getRandomArticles(articles: TArticle[], count: number) {
@@ -36,6 +37,12 @@ const Page = () => {
 
     <>
     <div className="max-w-7xl mx-auto mt-50">
+
+    <aside className="max-w-7xl mx-auto">
+        <div className="OUTBRAIN outbrain-desktop" data-widget-id="AR_2"></div>
+        <div className="OUTBRAIN outbrain-mobile" data-widget-id="CRMB_2"></div>
+      </aside>
+
       <div className="grid grid-cols-1 md:grid-cols-12 gap-6 px-4">
         {/* Column 1 */}
         <div className="space-y-6 col-span-12 md:col-span-3">
@@ -73,7 +80,7 @@ const Page = () => {
                 <div className="absolute inset-0 bg-black/50 rounded-md" />
                 <div className="absolute inset-0 z-10 flex flex-col justify-end p-6">
                   <div className="flex text-white">
-                    <h5 className="font-bold mt-2 uppercase text-sm text-left">
+                    <h5 className="font-bold mt-2 uppercase text-[12px] text-left">
                       {randomPost.category}
                     </h5>
                     <span className="text-left mt-2 ml-4 text-sm">
@@ -106,7 +113,7 @@ const Page = () => {
                 <div className="absolute inset-0 bg-black/50 rounded-md" />
                 <div className="absolute inset-0 z-10 flex flex-col justify-end p-6">
                   <div className="flex text-white">
-                    <h5 className="font-bold mt-2 uppercase text-sm text-left w-[10%]">
+                    <h5 className="font-bold mt-2 uppercase text-[12px] text-left ">
                       {money[0].category}
                     </h5>
                     <span className="text-left mt-2 ml-4 text-sm">
@@ -138,10 +145,10 @@ const Page = () => {
                   <div className="absolute inset-0 bg-black/60 rounded-md" />
                   <div className="absolute inset-0 flex flex-col justify-end p-4">
                     <div className="flex text-white">
-                      <h5 className="font-bold mt-2 uppercase text-sm text-left w-[20%]">
+                      <h5 className="font-bold mt-2 uppercase text-[12px] text-left">
                         {post.category}
                       </h5>
-                      <span className="text-left mt-2 text-sm">
+                      <span className="text-left mt-2 ml-4 text-sm">
                         <CreationDate articleNumber={post.articleNumber} />
                       </span>
                     </div>
@@ -240,7 +247,7 @@ const Page = () => {
                 <div className="absolute inset-0 bg-black/50 rounded-md" />
                 <div className="absolute inset-0 z-10 flex flex-col justify-end p-6">
                   <div className="flex text-white">
-                    <h5 className="font-bold mt-2 uppercase text-sm text-left w-[10%]">
+                    <h5 className="font-bold mt-2 uppercase text-[12px] text-left">
                       {randomPost.category}
                     </h5>
                     <span className="text-left mt-2 ml-4 text-sm">
@@ -273,7 +280,7 @@ const Page = () => {
                 <div className="absolute inset-0 bg-black/50 rounded-md" />
                 <div className="absolute inset-0 z-10 flex flex-col justify-end p-6">
                   <div className="flex text-white">
-                    <h5 className="font-bold mt-2 uppercase text-sm text-left w-[10%]">
+                    <h5 className="font-bold mt-2 uppercase text-[12px] text-left ">
                       {money[0].category}
                     </h5>
                     <span className="text-left mt-2 ml-4 text-sm">
@@ -305,7 +312,7 @@ const Page = () => {
                   <div className="absolute inset-0 bg-black/60 rounded-md" />
                   <div className="absolute inset-0 flex flex-col justify-end p-4">
                     <div className="flex text-white">
-                      <h5 className="font-bold mt-2 uppercase text-sm text-left ">
+                      <h5 className="font-bold mt-2 uppercase text-[12px] text-left ">
                         {post.category}
                       </h5>
                       <span className="text-left mt-2 ml-4 text-sm">
@@ -367,8 +374,13 @@ const Page = () => {
               ))}
           </div>
 
+          <aside className="max-w-7xl mx-auto">
+        <div className="OUTBRAIN outbrain-desktop" data-widget-id="AR_1"></div>
+        <div className="OUTBRAIN outbrain-mobile" data-widget-id="CRMB_1"></div>
+      </aside>
+
       </div>
-   
+   <Outbrain/>
    
    </>
     

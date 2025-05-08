@@ -34,7 +34,7 @@ const Stock = () => {
        <Link href="/stock"  >
          <span className="uppercase text-xl sm:text-3xl md:text-5xl hover:underline hover:text-purple-700 cursor-pointer
           text-black font-bold">
-           STOCK
+           BUSINESS INSURANCE
          </span>
        </Link>
        

@@ -69,7 +69,7 @@ const Contact: React.FC = () => {
     <div className="bg-[#fdfcfc] mt-40 text-gray-800 min-h-screen">
       {/* Header */}
       <header className="bg-purple-100 text-gray-800 py-12 text-center">
-        <h1 className="text-3xl text-black font-medium mb-4">Contact mowindia</h1>
+        <h1 className="text-3xl text-black font-medium mb-4">Contact Insurifiy</h1>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
         Reach out with questions, feedback, or just to say hello — we’d love to hear from you.
         </p>
@@ -134,11 +134,9 @@ const Contact: React.FC = () => {
         {/* Contact Info */}
         <section className="bg-white p-8 rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold text-black mb-6">Contact Information</h2>
-          <p className="text-lg text-gray-700 mb-4">
-            <strong>Address:</strong> New York, Market City, NY 10211
-          </p>
+         
           <p className="text-lg text-gray-700">
-            <strong>Email:</strong> contact@mowindia.com
+            <strong>Email:</strong> contact@insurifiy.com
           </p>
         </section>
       </main>

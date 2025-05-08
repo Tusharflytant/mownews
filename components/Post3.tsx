@@ -33,13 +33,13 @@ const Posts: React.FC<PostProps> = ({ pimg, pheading , section , articleNumber})
   {/* Text content on the right */}
   <div className="flex flex-col justify-between">
           <div className='flex '>
-           <h5 className=' font-bold mt-2 uppercase text-gray-500  text-sm text-left   '> {section}</h5>
-           <span className="text-gray-500 text-left mt-2 ml-4 text-sm">  <CreationDate articleNumber={articleNumber}/></span>
+           <h5 className=' font-bold  uppercase text-gray-500  text-[12px] text-left   '> {section}</h5>
+          
            </div>
-    <h4 className="text-base line-clamp-3 mt-2 font-semibold text-black leading-snug">
+    <h4 className="text-base line-clamp-2  font-semibold text-black leading-snug">
       {pheading}
     </h4>
-  
+    <span className="text-gray-500 text-left  text-sm">  <CreationDate articleNumber={articleNumber}/></span>
   </div>
 </div>
 

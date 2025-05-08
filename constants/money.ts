@@ -1501,7 +1501,7 @@
 ].reverse()
 .map((article, i) => ({
 ...article,
-category: `Stock`,
+category: `business insurance`,
 articleNumber: i + 1,
 })) as TArticle[];
 

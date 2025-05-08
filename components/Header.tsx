@@ -36,41 +36,41 @@ const Header = () => {
         {/* Left: Logo */}
         {!isScrolled && (
         <Link href="/">
-          <Image
-            src="/logo-mow.webp"
-            alt="Logo"
-            width={140}
-            height={80}
-            className="cursor-pointer"
-          />
+     <Image
+  src="/logo-insurfiy.png"
+  alt="Logo"
+  width={200}  // increased from 140
+  height={120} // increased from 80
+  className="cursor-pointer"
+/>
         </Link>
         )}
         
         {/* Center: Nav Links */}
-        <nav className="flex-1 flex justify-center">
+        <nav className="flex-1 mt-6 flex justify-center">
           <ul
             className={`flex space-x-8 text-md font-medium tracking-wide ${
               isScrolled ? "text-white" : "text-black"
             }`}
           >
             <li>
-              <Link href="/etfs" className="hover:text-purple-700 font-bold">
-                ETFS
+              <Link href="/etfs" className="hover:text-purple-700 uppercase font-bold">
+                Auto Insurance
               </Link>
             </li>
             <li>
-              <Link href="/finance" className="hover:text-purple-700 font-bold">
-                FINANCE
+              <Link href="/finance" className="hover:text-purple-700 uppercase font-bold">
+                Affordable Insurance
               </Link>
             </li>
             <li>
-              <Link href="/stock" className="hover:text-purple-700 font-bold">
-                STOCK
+              <Link href="/stock" className="hover:text-purple-700 uppercase font-bold">
+                Business Insurance
               </Link>
             </li>
             <li>
-              <Link href="/trading" className="hover:text-purple-700 font-bold">
-                TRADING
+              <Link href="/trading" className="hover:text-purple-700 uppercase font-bold">
+                Health Insurance
               </Link>
             </li>
           </ul>
@@ -80,7 +80,7 @@ const Header = () => {
         {!isScrolled && (
           <div>
             <Link href="/contact">
-            <button className="bg-purple-700 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-white hover:text-purple-600 border-2 border-purple-600 transition-all duration-300">
+            <button className="bg-purple-700 mt-6 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-white hover:text-purple-600 border-2 border-purple-600 transition-all duration-300">
             Contact
             </button>
             </Link>
@@ -97,7 +97,7 @@ const Header = () => {
 
         {/* Center: Logo */}
         <Link href="/">
-          <Image src="/logo-mow.webp" alt="Logo" width={130} height={80} />
+          <Image src="/logo-insurfiy.png" alt="Logo" width={130} height={80} />
         </Link>
 
         
@@ -107,23 +107,23 @@ const Header = () => {
       {menuOpen && (
         <ul className="lg:hidden text-black flex flex-col items-center space-y-4 pt-3 pb-6 text-base tracking-wide bg-white">
           <li>
-            <Link href="/etfs" onClick={handleCloseMenu} className="hover:text-purple-700">
-              ETFS
+            <Link href="/etfs" onClick={handleCloseMenu} className="hover:text-purple-700 uppercase">
+            Auto Insurance
             </Link>
           </li>
           <li>
-            <Link href="/finance" onClick={handleCloseMenu} className="hover:text-purple-700">
-              FINANCE
+            <Link href="/finance" onClick={handleCloseMenu} className="hover:text-purple-700 uppercase">
+            Affordable Insurance
             </Link>
           </li>
           <li>
-            <Link href="/stock" onClick={handleCloseMenu} className="hover:text-purple-700">
-              STOCK
+            <Link href="/stock" onClick={handleCloseMenu} className="hover:text-purple-700 uppercase">
+            Business Insurance
             </Link>
           </li>
           <li>
-            <Link href="/trading" onClick={handleCloseMenu} className="hover:text-purple-700">
-              TRADING
+            <Link href="/trading" onClick={handleCloseMenu} className="hover:text-purple-700 uppercase">
+            Health Insurance
             </Link>
           </li>
           <li>

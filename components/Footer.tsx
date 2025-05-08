@@ -16,7 +16,7 @@ const Footer = () => {
           <div>
             <Link href="/">
               <Image 
-                src="/logo-mow.webp" 
+                src="/logo-insurfiy.png" 
                 alt="Website Logo" 
                 width={180} 
                 height={60}
@@ -24,7 +24,7 @@ const Footer = () => {
               />
             </Link>
             <p className="text-sm text-gray-700 leading-relaxed">
-              Your go-to source for the latest in finance, trading, ETFs, and stock market insights – all in one place.
+              Your go-to source for the latest in Auto, Affordable, Health, and Business insurance insights – all in one place.
             </p>
           </div>
 
@@ -45,10 +45,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold text-purple-600 mb-4">Categories</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/etfs" className="hover:text-purple-600 hover:underline">ETF</Link></li>
-              <li><Link href="/finance" className="hover:text-purple-600 hover:underline">Finance</Link></li>
-              <li><Link href="/trading" className="hover:text-purple-600 hover:underline">Trading</Link></li>
-              <li><Link href="/stock" className="hover:text-purple-600 hover:underline">Stock</Link></li>
+              <li><Link href="/etfs" className="hover:text-purple-600 hover:underline">Auto Insurance</Link></li>
+              <li><Link href="/finance" className="hover:text-purple-600 hover:underline">Affordable Insurance</Link></li>
+              <li><Link href="/trading" className="hover:text-purple-600 hover:underline">Business Insurance</Link></li>
+              <li><Link href="/stock" className="hover:text-purple-600 hover:underline">Health Insurance</Link></li>
             </ul>
           </div>
         </div>
@@ -58,7 +58,7 @@ const Footer = () => {
 
         {/* Bottom Text */}
         <p className="text-xs text-gray-600 text-center leading-relaxed">
-          © 2025 Your MOW NEWS. All rights reserved. Content on this site may not be reused without written permission.
+          © 2025 Your INSURIFIY. All rights reserved. Content on this site may not be reused without written permission.
         </p>
       </div>
     </footer>

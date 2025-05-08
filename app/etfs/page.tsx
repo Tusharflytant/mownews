@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import Etfs from './Etfs';
 
 export const metadata : Metadata = {
-    title: "ETFS",
+    title: "Auto Insurance",
   };
 
 const etf = () => {

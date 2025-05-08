@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import Finance from './Finance';
 
 export const metadata : Metadata = {
-    title: "Finance",
+    title: "Affordable Insurance",
   };
 
 const finance = () => {

@@ -34,7 +34,7 @@ const Post2: React.FC<PostProps> = ({ pimg, pheading , articleNumber , section})
             title="Post"
           />
           <div className='flex '>
-           <h5 className=' font-bold mt-2 uppercase text-gray-500  text-sm text-left   w-[20%]'> {section}</h5>
+           <h5 className=' font-bold mt-2 uppercase text-gray-500  text-[12px] text-left '> {section}</h5>
            <span className="text-gray-500 text-left mt-2 ml-4 text-sm">  <CreationDate articleNumber={articleNumber}/></span>
            </div>
           <h4 className="mt-2  text-xl line-clamp-3 hover:text-purple-700 sm:text-2xl lg:text-xl tracking-wide text-left text-gray-900 font-bold

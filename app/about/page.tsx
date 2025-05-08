@@ -3,8 +3,8 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Learn more about mowindia and what we do.",
-  keywords: ["Stock Market", "About", "Trading", "ETFS", "Finance"],
+  description: "Learn more about Insurifiy and what we offer in insurance services.",
+  keywords: ["Auto Insurance", "Health Insurance", "Business Insurance", "Affordable Coverage", "Insurifiy"],
 };
 
 const About = () => {
@@ -12,9 +12,9 @@ const About = () => {
     <div className="mt-40 text-gray-900 min-h-screen">
       {/* Header */}
       <header className="bg-purple-100 text-gray-800 py-12 text-center">
-        <h1 className="text-3xl text-black font-medium mb-4">About mowindia</h1>
+        <h1 className="text-3xl text-black font-medium mb-4">About Insurifiy</h1>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-          Your trusted source for ETF insights, stock trading strategies, and financial news.
+          Your trusted guide to affordable auto, health, and business insurance solutions.
         </p>
       </header>
 
@@ -24,11 +24,11 @@ const About = () => {
         <section className="bg-white p-8 rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold text-black mb-4">Who We Are</h2>
           <p className="text-lg text-gray-700 mb-4">
-            mowindia is a digital publication focused on delivering accurate, timely, and insightful content about the financial markets.
-            Founded by a team of analysts, traders, and financial writers, we are committed to simplifying the complexities of finance for everyday investors and enthusiasts.
+            Insurifiy is an insurance-focused digital platform that simplifies coverage decisions for individuals and businesses. 
+            We are a team of insurance experts, researchers, and writers passionate about helping people make confident insurance choices.
           </p>
           <p className="text-lg text-gray-700">
-            We believe in the power of informed investing. Our goal is to equip our readers with the knowledge they need to navigate a constantly evolving economic landscape with confidence and clarity.
+            Whether you are protecting your vehicle, your health, or your livelihood, we bring you reliable, up-to-date, and easy-to-understand information to help you find the right plan at the right price.
           </p>
         </section>
 
@@ -36,10 +36,10 @@ const About = () => {
         <section className="bg-white p-8 rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold text-black mb-4">Our Mission</h2>
           <p className="text-lg text-gray-700 mb-4">
-            At mowindia, our mission is to democratize access to quality financial information. We strive to bridge the gap between Wall Street and the everyday investor by delivering well-researched, data-driven articles and analysis that help our readers make smarter financial decisions.
+            Our mission at Insurifiy is to empower consumers through knowledge. We believe insurance should be accessible, affordable, and understandable for everyone.
           </p>
           <p className="text-lg text-gray-700">
-            We maintain editorial independence, uphold journalistic integrity, and focus on clarity, transparency, and real-world value in everything we publish.
+            From comparing quotes to understanding policy options, we offer tools and insights that guide users toward smarter insurance decisions that protect what matters most.
           </p>
         </section>
 
@@ -47,11 +47,11 @@ const About = () => {
         <section className="bg-white p-8 rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold text-black mb-4">What We Cover</h2>
           <ul className="list-disc list-inside text-lg text-gray-700 space-y-3 mt-2">
-            <li><strong>ETFs:</strong> In-depth analysis of exchange-traded funds, including sector-specific trends, fund performance, and risk assessment.</li>
-            <li><strong>Stock Trading:</strong> Daily market recaps, technical analysis, breakout watchlists, and strategy breakdowns for both beginners and active traders.</li>
-            <li><strong>Finance News:</strong> Breaking stories and macroeconomic developments that shape market sentiment and impact investment decisions.</li>
-            <li><strong>Education:</strong> Step-by-step guides, terminology explainers, and portfolio-building basics for retail investors.</li>
-            <li><strong>Opinion & Commentary:</strong> Insights from industry professionals, economic outlooks, and thoughtful commentary on current events.</li>
+            <li><strong>Auto Insurance:</strong> Explore coverage options, cost-saving tips, and advice on choosing the right auto insurance for your needs.</li>
+            <li><strong>Health Insurance:</strong> From individual plans to family and employer coverage, we break down benefits, premiums, and providers.</li>
+            <li><strong>Business Insurance:</strong> Understand policies that protect your small business, employees, and assets from unexpected risks.</li>
+            <li><strong>Affordable Options:</strong> We focus on cost-effective plans and government programs that meet your needs without breaking the bank.</li>
+            <li><strong>Insurance Education:</strong> Simplified guides, jargon-free explainers, and checklists to help you make informed decisions.</li>
           </ul>
         </section>
 
@@ -59,19 +59,19 @@ const About = () => {
         <section className="bg-white p-8 rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold text-black mb-4">Our Editorial Approach</h2>
           <p className="text-lg text-gray-700 mb-4">
-            Every piece of content published on mowindia goes through a rigorous editorial process to ensure accuracy, clarity, and fairness. Our writers adhere to strict standards and verify information using reputable sources.
+            Every article on Insurifiy is reviewed for clarity, accuracy, and transparency. Our editorial team ensures that the content remains unbiased and helpful to a wide audience.
           </p>
           <p className="text-lg text-gray-700">
-            We avoid hype and sensationalism — our focus is on delivering value. Whether it’s an ETF breakdown or a market opinion, we back our work with data, charts, and historical context.
+            We avoid industry jargon, provide real-world examples, and keep our focus on helping users get practical, trustworthy advice.
           </p>
         </section>
 
         {/* Our Readers */}
         <section className="bg-white p-8 rounded-lg shadow-md">
-          <h2 className="text-2xl font-semibold text-black mb-4">Who Reads mowindia?</h2>
+          <h2 className="text-2xl font-semibold text-black mb-4">Who Reads Insurifiy?</h2>
           <p className="text-lg text-gray-700">
-            Our audience includes individual investors, active traders, financial advisors, and anyone seeking to better understand how the markets work.
-            Whether you are just getting started with ETFs or optimizing your trading strategy, mowindia delivers insights tailored to your level.
+            Our readers include everyday drivers, families, small business owners, and self-employed professionals looking for insurance clarity.
+            Whether you are shopping for your first plan or reassessing your current coverage, Insurifiy helps you make confident, cost-effective choices.
           </p>
         </section>
       </main>

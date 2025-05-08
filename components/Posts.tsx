@@ -34,7 +34,7 @@ const Posts: React.FC<PostProps> = ({ pimg, pheading , articleNumber, section, p
   />
 </div>
 
-          <h5 className='text-purple-500 font-bold bg-white text-left capitalize mt-1 mb-2 '> {section}</h5>
+          <h5 className='text-purple-500 font-bold bg-white text-left text-[14px] capitalize mt-1 mb-2 '> {section}</h5>
           <h4 className=" text-xl  hover:underline line-clamp-2 sm:text-2xl lg:text-xl  text-left text-black
              font-bold title-font mb-4">
           {pheading}
