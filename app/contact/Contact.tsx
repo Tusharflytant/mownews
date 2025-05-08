@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import toast, { Toaster } from 'react-hot-toast';
+import toast from 'react-hot-toast';
 
 interface FormData {
   name: string;
